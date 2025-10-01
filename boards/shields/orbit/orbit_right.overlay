@@ -2,6 +2,10 @@
 #include "pmw3610.dtsi"
 #include "input_common.dtsi"
 
+&spi0 {
+    status = "okay";
+};
+
 &default_transform {
     col-offset = <5>;
 };
