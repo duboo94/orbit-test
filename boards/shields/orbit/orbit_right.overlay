@@ -1,0 +1,15 @@
+#include "orbit.dtsi"
+#include "pmw3610.dtsi"
+#include "input_common.dtsi"
+
+&default_transform {
+    col-offset = <5>;
+};
+
+&trackball_split { 
+	device = <&trackball>; 
+	};
+
+&trackball_split2 { 
+	status = "disabled"; 
+};
